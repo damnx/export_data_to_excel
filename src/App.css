@@ -30,3 +30,69 @@
     transform: rotate(360deg);
   }
 }
+
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  /* border: 1px solid black;
+  padding: 8px; */
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.tab {overflow: hidden; border: 1px solid #ccc; 
+  background-color: #f1f1f1;}
+  
+  .tabcontent {
+    display: block;
+      border-top: none;
+    }
+      
+  .tab button {background-color: inherit; float: left; border: none;
+      outline: none; cursor: pointer; padding: 14px 16px; 
+      transition: 0.3s;}
+      
+  .tab button:hover {background-color: #ddd;}
+  
+  .tab .active {background-color: #ccc;}
+  
+  .tabcontent {display: block;
+}
+  
+  table {font-family: arial, sans-serif; border-collapse: collapse;
+      width: 100%;}
+  
+  td, th {
+    padding: 8px; 
+      text-align: center;
+    }
+  
+  /*Change color to gray*/
+  tr:nth-child(even) {
+     
+    }
+  
+  
+  .deactivated a{color:red}
+  .deactivated a:hover{ font-weight: bold}
+  
+  .disable{ color: red; font-weight: bold}
+  .intraining{color: blue; font-weight: bold}
+  .vacation{ font-weight: bold}
+
+  .customers-hidden {
+    display: none
+  }
+
+  .download-table-xls-button{float: left;margin: 10px}
